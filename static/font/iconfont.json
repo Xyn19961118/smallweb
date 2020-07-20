@@ -1,0 +1,23 @@
+{
+  "id": "1832820",
+  "name": "smallweb",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9577502",
+      "name": "下箭头",
+      "font_class": "bottom",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "2585531",
+      "name": "向右箭头",
+      "font_class": "fanhui-copy-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

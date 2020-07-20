@@ -1,0 +1,154 @@
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+dl,
+dd,
+form,
+input,
+span,
+i,
+textarea,
+select {
+  padding: 0;
+  margin: 0;
+}
+input, textarea,select {
+  outline: none;
+  resize: none !important;
+}
+
+body {
+  min-width: 1200px;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  line-height: 1.2;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+i {
+  font-style: normal;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+
+table{
+  float: none;
+}
+
+.fl {
+  float: left !important;
+}
+
+.fr {
+  float: right !important;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.conceal {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrap {
+  width: 1200px;
+  margin: auto;
+}
+
+.el {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.el-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ssr-pager.my-page .pager-box .pager-ul .number.active {
+  border: #ec0004 1px solid !important;
+  color: #ec0004 !important;
+}
+
+.ssr-pager.my-page .pager-box .pager-ul .number,
+.ssr-pager.my-page .pager-box .btn {
+  background: #fff !important;
+  border: #ddd 1px solid !important;
+}
+
+.ssr-pager.my-page .pager-box .pager-ul .number:hover {
+  border: #ec0004 1px solid !important;
+  color: #ec0004 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.img-wrap {
+  width: 1920px;
+  position: relative;
+  left: 50%;
+}
+.img {
+  width: 1920px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-960px);
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .2s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
